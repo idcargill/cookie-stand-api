@@ -3,7 +3,7 @@ import requests
 
 # NOTE: Adjust these settings as needed
 API_HOST = "http://localhost:8000"
-RESOURCE_URI = "things"
+RESOURCE_URI = "cookies"
 USERNAME = "admin"
 PASSWORD = "admin"
 
