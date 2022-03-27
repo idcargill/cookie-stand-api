@@ -1,0 +1,22 @@
+poetry export -f requirements.txt -o requirements.txt --without-hashes
+
+docker-compose run web python manage.py makemigrations
+
+docker-compose run web python manage.py migrate
+
+docker-compose run web python manage.py runserver
+
+
+
+AWS
+
+sudo service docker start
+sudo chkconfig docker.service
+sudo rm /etc/localtime
+
+docker swarm join-token manager
+
+
+
+# Running
+sudo service docker start
