@@ -1,6 +1,5 @@
 from pathlib import Path
 import urllib.parse as up
-import psycopg2
 import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
