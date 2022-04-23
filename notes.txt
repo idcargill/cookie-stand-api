@@ -20,3 +20,15 @@ docker swarm join-token manager
 
 # Running
 sudo service docker start
+
+
+
+
+admin/
+api/v1/cookies/
+api-auth/
+api/token/ [name='token_obtain_pair']
+api/token/refresh [name='token_refresh']
+
+http://ec2-3-95-225-231.compute-1.amazonaws.com:8000/
+http://3.95.225.231:8000/
